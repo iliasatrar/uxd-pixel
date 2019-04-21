@@ -1,0 +1,2506 @@
+<html>
+
+    <head>
+        <meta charset="windows-1252">
+        <meta name="msapplication-config" content="none"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home - Iddink</title>
+
+        <link rel="shortcut icon" href="https://www.iddink.nl//landing-page/uploads/05/favicon.png">
+
+        <meta name="robots" content="noindex,follow" />
+        <link rel="canonical" href="https://www.iddink.nl/" />
+        <meta property="og:locale" content="nl_NL" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Home - Iddink" />
+        <meta property="og:url" content="https://www.iddink.nl/" />
+        <meta property="og:site_name" content="Iddink" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Home - Iddink" />
+
+        <link rel='dns-prefetch' href='//s.w.org' />
+<link rel='stylesheet' id='flick-css'
+      href='https://www.iddink.nl/landing-page/plugins/mailchimp//css/flick/flick.css?ver=4.7.5' type='text/css'
+      media='all' />
+<link rel='stylesheet' id='collapseomatic-css-css'
+      href='https://www.iddink.nl/landing-page/plugins/jquery-collapse-o-matic/light_style.css?ver=1.6' type='text/css'
+      media='all' />
+<link rel='stylesheet' id='slb_core-css'
+      href='https://www.iddink.nl/landing-page/plugins/simple-lightbox/client/css/app.css?ver=2.6.0' type='text/css'
+      media='all' />
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/js/jquery/jquery.js'></script>
+<script type='text/javascript'
+        src='https://www.iddink.nl/landing-page/plugins/mailchimp//js/scrollTo.js?ver=1.5.7'></script>
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/js/jquery/jquery.form.min.js?ver=3.37.0'></script>
+<script type='text/javascript'>
+    /* <![CDATA[ */
+    var mailchimpSF = { "ajax_url": "https:\/\/www.klikerdoorheen.nl\/iddinkvo\/" };
+    /* ]]> */
+</script>
+<script type='text/javascript'
+        src='https://www.iddink.nl/landing-page/plugins/mailchimp//js/mailchimp.js?ver=1.5.7'></script>
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript'
+        src='https://www.iddink.nl/landing-page/plugins/mailchimp//js/datepicker.js?ver=4.7.5'></script>
+<link rel='shortlink' href='https://www.iddink.nl/school' />
+<script type="text/javascript">
+  jQuery(function ($) {
+    $('.date-pick').each(function () {
+      var format = $(this).data('format') || 'mm/dd/yyyy';
+      format = format.replace(/yyyy/i, 'yy');
+      $(this).datepicker({
+        autoFocusNextInput: true,
+        constrainInput: false,
+        changeMonth: true,
+        changeYear: true,
+        beforeShow: function (input, inst) {
+          $('#ui-datepicker-div').addClass('show');
+        },
+        dateFormat: format.toLowerCase(),
+      });
+    });
+    d = new Date();
+    $('.birthdate-pick').each(function () {
+      var format = $(this).data('format') || 'mm/dd';
+      format = format.replace(/yyyy/i, 'yy');
+      $(this).datepicker({
+        autoFocusNextInput: true,
+        constrainInput: false,
+        changeMonth: true,
+        changeYear: false,
+        minDate: new Date(d.getFullYear(), 1 - 1, 1),
+        maxDate: new Date(d.getFullYear(), 12 - 1, 31),
+        beforeShow: function (input, inst) {
+          $('#ui-datepicker-div').removeClass('show');
+        },
+        dateFormat: format.toLowerCase(),
+      });
+
+    });
+
+  });
+</script>
+<!-- Async font loading -->
+<style>
+    .fonts-loaded h1, .fonts-loaded h2, .fonts-loaded h3, .fonts-loaded h4, .fonts-loaded h5,
+    .fonts-loaded .logo a, .fonts-loaded .hf, .fonts-loaded .wpcf7-form p, .fonts-loaded .tabs-nav li a,
+    .fonts-loaded .cta-block p {
+        font-family: 'Open Sans', Arial, sans-serif;
+    }
+</style>
+<!-- Make it even faster on return visits -->
+<script>
+  if (sessionStorage.fontsLoaded === "true") {
+    document.documentElement.classList.add("fonts-loaded");
+  }
+</script>
+<!-- END Async font loading -->
+<style>
+    .cover {
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        position: relative
+    }
+
+    .outer-vcenter {
+        display: table
+    }
+
+    .inner-vcenter {
+        display: table-cell;
+        vertical-align: middle
+    }
+
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(-40px);
+            transform: translateY(-40px)
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0)
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(-40px);
+            transform: translateY(-40px)
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+            transform: translateY(0)
+        }
+    }
+
+    .visually-hidden {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0
+    }
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        height: 0;
+        visibility: hidden;
+        clear: both
+    }
+
+    .width {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1200px
+    }
+
+    @media only screen and (min-width: 25em) {
+        .width {
+            padding-left: 20px;
+            padding-right: 20px
+        }
+    }
+
+    @media only screen and (min-width: 50em) {
+        .width {
+            padding: 0;
+            width: 90%
+        }
+    }
+
+    .lines-button {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 8px 0;
+        width: 20px;
+        height: 2px;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+
+    .lines-button:active {
+        -webkit-transition: 0;
+        transition: 0;
+        background: #fff
+    }
+
+    .lines {
+        position: relative;
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #999
+    }
+
+    .lines:before, .lines:after {
+        position: absolute;
+        left: 0;
+        content: '';
+        -webkit-transform-origin: 1.4285714286px center;
+        transform-origin: 1.4285714286px center;
+        display: block;
+        width: 20px;
+        height: 2px;
+        background-color: #999
+    }
+
+    .lines:before {
+        top: 6px
+    }
+
+    .lines:after {
+        top: -6px
+    }
+
+    .lines-button:hover, a:hover .lines-button {
+        opacity: 1
+    }
+
+    .lines-button:hover .lines, a:hover .lines-button .lines {
+        background: #555
+    }
+
+    .lines-button:hover .lines:before, a:hover .lines-button .lines:before {
+        background: #555
+    }
+
+    .lines-button:hover .lines:after, a:hover .lines-button .lines:after {
+        background: #555
+    }
+
+    .lines-button.x.close .lines {
+        background: transparent
+    }
+
+    .lines-button.x.close .lines:before, .lines-button.x.close .lines:after {
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        top: 0;
+        width: 20px
+    }
+
+    .lines-button.x.close .lines:before {
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg)
+    }
+
+    .lines-button.x.close .lines:after {
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg)
+    }
+
+    .lines-button.minus.close .lines:before, .lines-button.minus.close .lines:after {
+        -webkit-transform: none;
+        transform: none;
+        width: 20px;
+        top: 0
+    }
+
+    html {
+        box-sizing: border-box
+    }
+
+    *, *:before, *:after {
+        box-sizing: inherit
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        font: 300 20px/1.6 Arial, sans-serif;
+        color: #222;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-attachment: fixed
+    }
+
+    .fonts-loaded body {
+        font-family: 'Open Sans', Arial, sans-serif
+    }
+
+    * html body.admin-bar {
+        padding-top: 28px !important
+    }
+
+    p {
+        margin: 0 0 25px
+    }
+
+    ul, ol {
+        margin: 0 0 25px;
+        padding: 0 0 0 30px
+    }
+
+    p, ul, ol {
+        font-family: 'Open Sans', Arial, Sans-serif;
+        font-weight: 300;
+        color: inherit
+    }
+
+    h1, h2, h3, h4, h5, h6, div.h1, div.h2, div.h3, div.h4, div.h5, div.h6 {
+        margin: 0 0 10px;
+        font: inherit;
+        line-height: 1.2;
+        color: inherit
+    }
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, div.h1 a, div.h2 a, div.h3 a, div.h4 a, div.h5 a, div.h6 a {
+        text-decoration: none
+    }
+
+    h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, div.h1 a:hover, div.h2 a:hover, div.h3 a:hover, div.h4 a:hover, div.h5 a:hover, div.h6 a:hover {
+        opacity: .8
+    }
+
+    h1, div.h1 {
+        margin: 0 0 10px;
+        font-size: 42px;
+        font-weight: bold
+    }
+
+    h2, div.h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 5px
+    }
+
+    h3, div.h3 {
+        margin: 0 0 5px;
+        font-size: 20px;
+        text-transform: uppercase
+    }
+
+    h4, div.h4 {
+        margin: 0 0 5px;
+        font-weight: bold;
+        font-size: 16px
+    }
+
+    blockquote {
+        margin: 0;
+        padding: 0 0 0 30px;
+        border-left: 2px #ddd solid;
+        font-style: italic;
+        color: #555
+    }
+
+    code {
+        font-family: courier
+    }
+
+    figure {
+        margin: 0 0 20px;
+        padding: 0
+    }
+
+    a {
+        color: inherit
+    }
+
+    a:hover {
+        text-decoration: none
+    }
+
+    a img {
+        border: none
+    }
+
+    img {
+        max-width: 100%;
+        height: auto
+    }
+
+    .visually-hidden {
+        position: absolute;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0
+    }
+
+    header.responsive-header .inner:after, .responsive-header nav ul:after, .responsive-header nav.enhanced li.menu-item-has-children:after, .responsive-header nav.enhanced .subnav-toggler:after {
+        content: "";
+        display: block;
+        height: 0;
+        visibility: hidden;
+        clear: both
+    }
+
+    header, .menu a, img, .menu li, .button-menu, a.text-logo {
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s
+    }
+
+    header.responsive-header {
+        margin: 0;
+        padding: 0;
+        height: 60px;
+        background-color: #fff;
+        border-bottom: 1px #eee solid
+    }
+
+    @media only screen and (min-width: 1200px) {
+        header.responsive-header {
+            width: 100%;
+            height: 100px;
+            padding: 0;
+            background-color: rgba(255, 255, 255, 0);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            position: fixed;
+            z-index: 2
+        }
+
+        header.small {
+            height: 60px;
+            background-color: #fff;
+            border-bottom: 1px #eee solid
+        }
+    }
+
+    header.responsive-header .logo {
+        display: block;
+        float: left
+    }
+
+    header a.text-logo {
+        font-size: 24px;
+        line-height: 60px;
+        float: left;
+        margin: 0 10px;
+        text-decoration: none
+    }
+
+    header .tagline {
+        display: inline-block;
+        line-height: 60px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 14px
+    }
+
+    @media only screen and (max-width: 600px) {
+        header .tagline {
+            display: none
+        }
+    }
+
+    header.responsive-header .logo img {
+        height: 40px;
+        width: auto;
+        float: left;
+        margin: 10px 20px;
+        top: 10px;
+        left: 20px
+    }
+
+    header.responsive-header .logo img.light-logo {
+        display: none
+    }
+
+    @media only screen and (min-width: 1200px) {
+        header.responsive-header .logo img.light-logo {
+            height: 60px;
+            width: auto;
+            float: left;
+            display: block;
+            position: relative;
+            top: 0;
+            left: 0;
+            margin-top: 20px;
+            margin-left: 25px;
+            filter: alpha(opacity=100);
+            opacity: 1
+        }
+
+        header.responsive-header .logo img.dark-logo {
+            height: 0;
+            width: 0;
+            float: left;
+            top: 0;
+            left: 0;
+            margin-top: 20px;
+            margin-left: 0px;
+            filter: alpha(opacity=0);
+            opacity: 0
+        }
+
+        header a.text-logo {
+            float: left;
+            font-size: 40px;
+            margin-left: 25px;
+            margin-right: 25px;
+            line-height: 100px;
+            text-decoration: none;
+            color: #fff
+        }
+
+        header .tagline {
+            display: block;
+            float: left;
+            color: #fff;
+            font-size: 16px;
+            line-height: 100px
+        }
+
+        header.small .logo img.light-logo {
+            margin: 0;
+            height: 0;
+            filter: alpha(opacity=0);
+            opacity: 0
+        }
+
+        header.small .logo img.dark-logo {
+            height: 40px;
+            width: auto;
+            float: left;
+            margin-top: 10px;
+            margin-left: 25px;
+            filter: alpha(opacity=100);
+            opacity: 1
+        }
+
+        header.small a.text-logo {
+            color: #444;
+            font-size: 28px;
+            line-height: 60px
+        }
+
+        .small .tagline {
+            display: inline-block;
+            float: left;
+            font-weight: normal;
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 14px;
+            line-height: 60px
+        }
+    }
+
+    .responsive-header nav.enhanced .button-menu {
+        float: left;
+        font-size: 20px;
+        color: #fff;
+        margin: 0 0 30px -2px;
+        padding: 15px 20px
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .responsive-header .button-menu {
+            float: right;
+            font-size: 16px;
+            margin: 30px 10px 0 10px;
+            padding: 10px 20px
+        }
+
+        .responsive-header .button-menu img {
+            height: 20px;
+            width: auto;
+            display: inline-block;
+            margin-right: 10px;
+            margin-bottom: -4px
+        }
+
+        .small .button-menu, .smaller .button-menu {
+            font-size: 12px;
+            height: 40px;
+            line-height: 35px;
+            font-weight: normal;
+            padding: 0 15px;
+            margin: 10px 0 0 0
+        }
+
+        .small .button-menu img, .smaller .button-menu img {
+            display: none
+        }
+    }
+
+    .responsive-header {
+        position: relative;
+        z-index: 2
+    }
+
+    .responsive-header nav {
+        display: none;
+        box-sizing: border-box
+    }
+
+    .responsive-header nav *, .responsive-header nav *:before, .responsive-header nav *:after {
+        box-sizing: inherit
+    }
+
+    .responsive-header nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none
+    }
+
+    .responsive-header nav li {
+        position: relative
+    }
+
+    .responsive-header nav a {
+        text-decoration: none;
+        -webkit-transition: all 0.1s ease-in-out;
+        transition: all 0.1s ease-in-out
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .responsive-header nav ul {
+            float: left
+        }
+
+        .responsive-header nav {
+            display: block;
+            float: right;
+            margin-right: 20px
+        }
+    }
+
+    .responsive-header nav img {
+        display: none
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .responsive-header nav > ul > li {
+            float: left
+        }
+
+        .responsive-header nav > ul > li > a {
+            font-size: 18px;
+            padding: 0 15px;
+            display: block;
+            line-height: 100px;
+            color: #fff;
+            text-decoration: none
+        }
+
+        .responsive-header nav > ul > li.current-menu-ancestor, .responsive-header nav > ul > li.current-menu-item {
+            border-bottom: 3px #eee solid
+        }
+
+        .responsive-header nav > ul > li:hover {
+            background-color: rgba(255, 255, 255, 0.2)
+        }
+
+        .responsive-header nav > ul > li > a img {
+            height: 24px;
+            width: auto;
+            margin-bottom: -5px
+        }
+
+        .responsive-header nav > ul > li:first-child {
+            margin-left: 0
+        }
+
+        .responsive-header nav img.light-home {
+            display: inline-block
+        }
+
+        .small nav img.light-home {
+            display: none
+        }
+
+        .small nav img.dark-home {
+            display: inline-block
+        }
+
+        .small nav > ul > li > a {
+            font-size: 16px;
+            padding: 0 10px;
+            line-height: 60px;
+            color: #777
+        }
+    }
+
+    .responsive-header nav ul ul {
+        display: none
+    }
+
+    @media only screen and (min-width: 1680px) {
+        .responsive-header nav ul {
+            margin-right: 25px
+        }
+
+        .responsive-header nav > ul > li > a {
+            padding: 0 25px
+        }
+
+        .small nav > ul > li > a {
+            padding: 0 10px
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .responsive-header nav ul ul {
+            position: absolute;
+            background-color: #fff;
+            padding: 10px 0;
+            width: 220px;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
+        }
+
+        .responsive-header nav ul ul a {
+            display: block;
+            padding: 5px 20px;
+            font-size: 14px;
+            text-align: left;
+            color: #777
+        }
+
+        .responsive-header nav > ul > li > ul > li.current-menu-ancestor, .responsive-header nav > ul > li > ul > li.current-menu-item {
+            background-color: #eee
+        }
+
+        .responsive-header nav ul ul a:hover {
+            background-color: #eee
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .responsive-header nav > ul > li.menu-item-has-children > a:after {
+            content: "";
+            display: inline-block;
+            margin-left: 5px;
+            width: 7px;
+            height: 7px;
+            background-size: 7px 7px;
+            vertical-align: middle
+        }
+
+        .responsive-header nav > ul > li:hover > ul {
+            display: block;
+            margin-left: -15px;
+            width: 220px;
+            right: 0px
+        }
+
+        .responsive-header nav ul.secondary-nav li:hover ul {
+            margin: 0;
+            left: auto;
+            right: 0
+        }
+    }
+
+    @media only screen and (min-width: 1680px) {
+        .responsive-header nav > ul > li:hover > ul {
+            right: -25px
+        }
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .responsive-header nav > ul > li > ul li.menu-item-has-children > a:after {
+            content: "";
+            display: none;
+            float: right;
+            margin-top: 7px;
+            width: 7px;
+            height: 7px;
+            background: no-repeat 0 0;
+            background-size: 7px 7px;
+            vertical-align: middle
+        }
+
+        .responsive-header nav > ul > li > ul li:hover > ul {
+            display: none;
+            margin-top: -10px;
+            background-color: #fff;
+            top: 0;
+            right: 220px
+        }
+    }
+
+    .nav-toggler {
+        float: right;
+        margin-top: 9px;
+        margin-right: 10px;
+        padding: 0 10px 5px 10px;
+        height: 40px;
+        border: 1px #ccc solid;
+        border-radius: 5px;
+        color: #777;
+        text-decoration: none;
+        line-height: 40px;
+        font-size: 20px
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .nav-toggler {
+            display: none
+        }
+    }
+
+    .nav-toggler .lines-button {
+        margin-right: 5px;
+        vertical-align: middle;
+        position: relative;
+        top: -5px
+    }
+
+    .subnav-toggler {
+        display: none;
+        padding: 7px;
+        border-radius: 5px;
+        width: 34px;
+        height: 34px;
+        background-color: rgba(255, 255, 255, 0.2);
+        cursor: pointer
+    }
+
+    .responsive-header nav.enhanced {
+        padding: 0 20px;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0
+    }
+
+    .responsive-header nav.enhanced a {
+        display: inline-block;
+        padding: 5px 0;
+        font-size: 24px;
+        text-align: center;
+        color: #555
+    }
+
+    .responsive-header nav.enhanced ul {
+        margin: 0 0 20px
+    }
+
+    .responsive-header nav.enhanced li.menu-item-has-children {
+        position: relative
+    }
+
+    .responsive-header nav.enhanced li.menu-item-has-children > a {
+        float: left
+    }
+
+    .responsive-header nav.enhanced li.menu-item-has-children > .subnav-toggler {
+        float: right
+    }
+
+    .responsive-header nav.enhanced li.menu-item-has-children > ul {
+        clear: both
+    }
+
+    .responsive-header nav.enhanced .subnav-toggler {
+        display: block;
+        width: auto;
+        position: relative;
+        top: 6px
+    }
+
+    .responsive-header nav.enhanced .subnav-toggler .lines-button {
+        margin-right: 5px;
+        vertical-align: middle;
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px)
+    }
+
+    .responsive-header nav.enhanced .subnav-toggler .label {
+        position: relative;
+        top: -2px;
+        line-height: 20px;
+        color: #777
+    }
+
+    @media only screen and (min-width: 1200px) {
+        .responsive-header nav.enhanced .subnav-toggler {
+            display: none
+        }
+    }
+
+    .responsive-header nav.enhanced .search-form {
+        margin: 0 0 10px
+    }
+
+    .responsive-header nav.enhanced ul ul {
+        margin: 0 0 20px 9px;
+        border-left: 1px solid rgba(255, 255, 255, 0.05);
+        padding-left: 20px
+    }
+
+    .search-form input {
+        width: 100%
+    }
+
+    .lines-button {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 10px 0;
+        width: 30px;
+        height: 5px;
+        -webkit-transition: 0.1s;
+        transition: 0.1s;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none
+    }
+
+    .lines-button:active {
+        -webkit-transition: 0;
+        transition: 0;
+        background: #fff
+    }
+
+    .lines {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 5px;
+        background-color: #777;
+        -webkit-transition: 0.1s;
+        transition: 0.1s
+    }
+
+    .lines:before, .lines:after {
+        position: absolute;
+        left: 0;
+        content: '';
+        -webkit-transform-origin: 1.4285714286px center;
+        transform-origin: 1.4285714286px center;
+        display: block;
+        width: 30px;
+        height: 5px;
+        background-color: #777;
+        -webkit-transition: 0.1s;
+        transition: 0.1s
+    }
+
+    .lines:before {
+        top: 8px
+    }
+
+    .lines:after {
+        top: -8px
+    }
+
+    .lines-button:hover, a:hover .lines-button {
+        opacity: 1
+    }
+
+    .lines-button:hover .lines, a:hover .lines-button .lines {
+        background: #333
+    }
+
+    .lines-button:hover .lines:before, a:hover .lines-button .lines:before {
+        background: #333
+    }
+
+    .lines-button:hover .lines:after, a:hover .lines-button .lines:after {
+        background: #333
+    }
+
+    .lines-button.x.close .lines {
+        background: transparent
+    }
+
+    .lines-button.x.close .lines:before, .lines-button.x.close .lines:after {
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        top: 0;
+        width: 20px
+    }
+
+    .lines-button.x.close .lines:before {
+        -webkit-transform: rotate3d(0, 0, 1, 45deg);
+        transform: rotate3d(0, 0, 1, 45deg)
+    }
+
+    .lines-button.x.close .lines:after {
+        -webkit-transform: rotate3d(0, 0, 1, -45deg);
+        transform: rotate3d(0, 0, 1, -45deg)
+    }
+
+    .lines-button.minus.close .lines:before, .lines-button.minus.close .lines:after {
+        -webkit-transform: none;
+        transform: none;
+        width: 20px;
+        top: 0
+    }
+
+    .bg-mask {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+        background-color: transparent
+    }
+
+    .sitemap nav ul {
+        margin: 0 0 20px;
+        padding: 0;
+        list-style: none
+    }
+
+    .sitemap nav ul ul {
+        margin: 10px 0 10px 10px;
+        padding-left: 10px;
+        border-left: 1px solid #eee
+    }
+
+    .sitemap nav a {
+        display: block;
+        padding: 5px 0;
+        text-decoration: none
+    }
+
+    .overlay {
+        background-color: #333;
+        opacity: 0.5;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0
+    }
+
+    .hero {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        z-index: 1
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .hero {
+            height: auto
+        }
+    }
+
+    .hero-content-wrapper {
+        width: 1200px;
+        height: 100vh;
+        display: table-cell;
+        vertical-align: middle
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .hero-content-wrapper {
+            vertical-align: top;
+            height: auto
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .hero-content-wrapper {
+            width: auto
+        }
+    }
+
+    .hero-content {
+        width: 45%;
+        color: #fff;
+        text-align: left;
+        margin-top: 80px;
+        margin-right: 10%;
+        margin-left: 10%
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .hero-content {
+            margin: 50px 10% 0 0
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .hero-content {
+            width: 100%;
+            text-align: center;
+            margin-right: 0;
+            margin-bottom: 30px
+        }
+    }
+
+    .align-hc-left {
+        float: left
+    }
+
+    .align-hc-right {
+        float: right
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .align-hc-right {
+            margin: 50px 0 30px 10%
+        }
+    }
+
+    .align-hc-center {
+        width: 80%;
+        text-align: center;
+        margin: 80px 10% 50px
+    }
+
+    .hero h1 {
+        font-size: 54px;
+        margin-bottom: 20px
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .hero h1 {
+            font-size: 42px;
+            line-height: 1.2;
+            margin-bottom: 10px
+        }
+    }
+
+    .hero-content p {
+        font-size: 24px;
+        line-height: 1.4;
+        font-weight: 300;
+        margin-bottom: 30px;
+        color: #fff
+    }
+
+    .hero-form {
+        width: 30%;
+        margin-top: 50px;
+        padding: 30px;
+        background: rgba(255, 255, 255, 0.3);
+        float: left;
+        border-radius: 5px;
+        -khtml-border-radius: 5px
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .hero-form {
+            width: 35%;
+            margin-bottom: 50px
+        }
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .hero-form {
+            width: 45%
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .hero-form {
+            width: 100%;
+            margin-top: 0
+        }
+    }
+
+    .hero-form h3 {
+        font-size: 24px;
+        color: #fff
+    }
+
+    .hero-form form {
+        margin-bottom: 0
+    }
+
+    .hero-form .wpcf7-submit {
+        width: 100%;
+        background: #333;
+        color: #fff;
+        border: 0;
+        margin: 0
+    }
+
+    div.background {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        z-index: 0
+    }
+
+    @media only screen and (max-width: 1200px) {
+        div.background {
+            display: none
+        }
+    }
+
+    div.background .slide {
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        background: no-repeat center center;
+        background-size: cover
+    }
+
+    @media only screen and (max-width: 1200px) {
+        div.background .slide {
+            display: none
+        }
+    }
+
+    #video-bg {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: auto;
+        min-width: 100%;
+        height: auto;
+        min-height: 100%;
+        z-index: 0
+    }
+
+    @media only screen and (max-width: 1000px) {
+        #video-bg {
+            display: none
+        }
+    }
+
+    @-webkit-keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0)
+        }
+        40% {
+            -webkit-transform: translateY(-30px);
+            transform: translateY(-30px)
+        }
+        60% {
+            -webkit-transform: translateY(-15px);
+            transform: translateY(-15px)
+        }
+    }
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0)
+        }
+        40% {
+            -webkit-transform: translateY(-30px);
+            transform: translateY(-30px)
+        }
+        60% {
+            -webkit-transform: translateY(-15px);
+            transform: translateY(-15px)
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        margin-left: -25px;
+        width: 50px;
+        height: 30px;
+        filter: alpha(opacity=75);
+        opacity: 0.75;
+        background-size: contain
+    }
+
+    .arrow-cover {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        margin-left: -25px;
+        width: 50px;
+        height: 80px
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .arrow-cover {
+            display: none
+        }
+    }
+
+    .bounce {
+        -webkit-animation: bounce 2s infinite;
+        animation: bounce 2s infinite
+    }
+
+    #arrow-scroll {
+        display: block
+    }
+
+    @media only screen and (max-width: 1200px) {
+        #arrow-scroll {
+            display: none !important
+        }
+    }
+
+    #scroll {
+        margin-top: -60px;
+        margin-bottom: 60px
+    }
+
+    .subhero {
+        width: 100%;
+        height: 50vh;
+        background-color: #ccc
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .subhero {
+            height: 400px !important
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .subhero {
+            height: 200px !important
+        }
+    }
+
+    .content-vcenter-hero {
+        margin-top: 100px;
+        text-align: center;
+        position: relative;
+        z-index: 1
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .content-vcenter-hero {
+            margin-top: 0
+        }
+    }
+
+    .subhero h1 {
+        color: #fff;
+        font-size: 54px;
+        line-height: 1.2;
+        margin: 0 10%
+    }
+
+    @media only screen and (max-width: 800px) {
+        .subhero h1 {
+            font-size: 36px
+        }
+    }
+
+    .subhero-archive {
+        height: 30vh !important;
+        background-image: none !important
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .subhero-archive {
+            height: 200px !important
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .subhero-archive {
+            height: 100px !important
+        }
+    }
+
+    .content-header {
+        margin-bottom: 20px
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 0;
+        padding: 0
+    }
+
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .container {
+            width: 80%
+        }
+    }
+
+    .page-container {
+        width: 100%;
+        margin: 60px auto 60px;
+        padding: 0 50px
+    }
+
+    body.page-template-page-sidebarleft-right .page-container {
+        width: 100%
+    }
+
+    @media only screen and (min-width: 105em) {
+        body.page-template-page-sidebarleft-right .page-container {
+            width: 70%
+        }
+    }
+
+    @media only screen and (min-width: 87.5em) {
+        .page-container {
+            width: 100%;
+            max-width: 1400px
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .page-container {
+            margin: 30px auto;
+            padding: 0 30px
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .page-container {
+            margin: 30px auto;
+            padding: 0 30px
+        }
+    }
+
+    .columns {
+        padding: 80px 0
+    }
+
+    .columns-wide {
+        padding: 80px 80px 50px
+    }
+
+    @media only screen and (max-width: 800px) {
+        .columns-wide {
+            padding: 80px 40px 40px
+        }
+    }
+
+    .column {
+        float: left
+    }
+
+    .column1-1 {
+        width: 100%;
+        float: left
+    }
+
+    .column1-2 {
+        width: 50%;
+        float: left
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .column1-2 {
+            width: 100%
+        }
+    }
+
+    .column3-4 {
+        width: 75%;
+        float: left
+    }
+
+    .column-center {
+        width: 50%;
+        float: left;
+        padding: 0 50px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .column-center {
+            width: 90%;
+            margin: 0 5% 30px;
+            padding: 0
+        }
+    }
+
+    .column-right {
+        width: 70%;
+        float: right;
+        padding: 0 0 0 50px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .column-right {
+            width: 90%;
+            margin: 0 5%;
+            padding: 0
+        }
+    }
+
+    .column-left {
+        width: 70%;
+        float: left;
+        padding: 0 50px 0 0
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .column-left {
+            width: 90%;
+            margin: 0 5%;
+            padding: 0
+        }
+    }
+
+    .column-full-width {
+        width: 100%;
+        margin: 0;
+        float: left;
+        padding: 0 50px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .column-full-width {
+            padding: 0
+        }
+    }
+
+    .double-columns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 80px 0 50px 0
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .double-columns {
+            display: block
+        }
+    }
+
+    .dbc-left {
+        padding-right: 25px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .dbc-left {
+            padding: 0;
+            margin-bottom: 30px
+        }
+    }
+
+    .dbc-right {
+        padding-left: 25px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .dbc-right {
+            padding: 0
+        }
+    }
+
+    .sidebar {
+        width: 30%
+    }
+
+    body.page-template-page-sidebarleft-right .sidebar {
+        width: 25%
+    }
+
+    @media only screen and (max-width: 1000px) {
+        body.page-template-page-sidebarleft-right .sidebar {
+            width: 90%;
+            margin: 0 5%
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .sidebar {
+            width: 90%;
+            margin: 0 5%
+        }
+    }
+
+    .sidebar-left {
+        float: left
+    }
+
+    .sidebar-right {
+        float: right
+    }
+
+    .column1-3 {
+        width: 33.333333%;
+        text-align: center;
+        padding: 0 40px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .column1-3 {
+            width: 100%;
+            margin-bottom: 30px
+        }
+    }
+
+    .column1-4 {
+        width: 25%;
+        padding: 0 40px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .column1-4 {
+            width: 50%;
+            padding: 0;
+            margin-bottom: 30px
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .column1-4 {
+            width: 100%;
+            padding: 0;
+            margin-bottom: 30px
+        }
+    }
+
+    .small-column {
+        float: left;
+        width: 70%;
+        margin: 0 15%
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .small-column {
+            width: 80%;
+            margin: 0 10%
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .small-column {
+            width: 100%;
+            margin: 0
+        }
+    }
+
+    .blocklink {
+        text-decoration: none
+    }
+
+    .blocklink:hover h3 {
+        -webkit-transform: scale3d(1.1, 1.1, 1);
+        transform: scale3d(1.1, 1.1, 1)
+    }
+
+    .blocklink h3 {
+        color: #444;
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 58px;
+        text-transform: none;
+        -webkit-transition: -webkit-transform 0.1s ease-in-out;
+        transition: -webkit-transform 0.1s ease-in-out;
+        transition: transform 0.1s ease-in-out;
+        transition: transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .blocklink h3 {
+            font-size: 22px;
+            line-height: 1.2;
+            margin: 10px 0
+        }
+    }
+
+    .blocklink p {
+        font-size: 20px;
+        line-height: 1.8;
+        color: #444;
+        font-weight: 300;
+        margin-bottom: 30px
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .blocklink p {
+            font-size: 18px
+        }
+    }
+
+    .centered-content-small {
+        width: 800px;
+        margin: 0 auto;
+        padding: 80px 0 50px 0;
+        text-align: center;
+        color: #333
+    }
+
+    .centered-content-small h2 {
+        font-size: 36px
+    }
+
+    .centered-content-small h3 {
+        margin-bottom: 30px
+    }
+
+    .centered-content-small p {
+        font-size: 18px;
+        line-height: 1.8;
+        font-weight: 300;
+        margin-bottom: 30px
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .centered-content-small {
+            width: auto
+        }
+    }
+
+    .fadedimage {
+        zoom: 1;
+        filter: alpha(opacity=50);
+        opacity: 0.5
+    }
+
+    .rectangle-blocks h2, .rectangle-blocks p, .square-blocks h2, .square-blocks p, .square-grid h2, .square-grid p {
+        margin-bottom: 10px
+    }
+
+    .rectangle-blocks div.button a, .square-blocks div.button a, .square-grid div.button a {
+        margin-bottom: 0
+    }
+
+    .rectangle-blocks a.button, .square-blocks a.button, .square-grid a.button {
+        margin: 0;
+        width: auto
+    }
+
+    .rectangle-blocks {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .rectangle-blocks {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column
+        }
+    }
+
+    .rectangle-blocks__block {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 80px 10%;
+        width: 50%
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .rectangle-blocks__block {
+            width: auto
+        }
+    }
+
+    .square-blocks {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .square-blocks {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column
+        }
+    }
+
+    .square-blocks img {
+        width: 50%
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .square-blocks img {
+            width: 20%
+        }
+    }
+
+    .square-blocks__square {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 33.3333333333%;
+        min-height: 33vw;
+        padding: 40px;
+        text-align: center
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .square-blocks__square {
+            width: 100%
+        }
+    }
+
+    .square-grid {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 100vh
+    }
+
+    .square-grid__vertical-image {
+        width: 33.3333333333%
+    }
+
+    @media only screen and (max-width: 800px) {
+        .square-grid__vertical-image {
+            display: none
+        }
+    }
+
+    .square-grid__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        width: 66.6666666667%
+    }
+
+    @media only screen and (max-width: 800px) {
+        .square-grid__content {
+            display: block;
+            width: 100%
+        }
+    }
+
+    .square-grid__square {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 50%;
+        background-color: #eee;
+        height: 50vh;
+        text-align: center
+    }
+
+    @media only screen and (max-width: 800px) {
+        .square-grid__square {
+            display: none
+        }
+    }
+
+    .square-grid__copy {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 60px 20%;
+        width: 100%;
+        min-height: 50vh;
+        background-color: #f5f5f5
+    }
+
+    @media only screen and (max-width: 1200px) {
+        .square-grid__copy {
+            padding: 60px
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .square-grid__copy {
+            padding: 40px
+        }
+    }
+
+    a.button, div.button a, button.button, .wpcf7-submit, #searchsubmit, .mc4wp-form input[type=submit] {
+        padding: 10px 30px;
+        display: inline-block;
+        line-height: 1.2;
+        background-color: #0092bc;
+        background-image: none;
+        border: 2px solid #fff;
+        text-transform: normal;
+        text-align: center;
+        color: #fff;
+        cursor: pointer;
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        -webkit-transition: background-image 0.5s ease-in-out;
+        transition: background-image 0.5s ease-in-out
+    }
+
+    a.button:hover, div.button a:hover, button.button:hover, .wpcf7-submit:hover, #searchsubmit:hover, .mc4wp-form input[type=submit]:hover {
+        background-image: url(images/mouse-over.png)
+    }
+
+    a.button:active, div.button a:active, button.button:active, .wpcf7-submit:active, #searchsubmit:active, .mc4wp-form input[type=submit]:active {
+        background-image: url(images/mouse-over.png)
+    }
+
+    a.xl {
+        font-size: 22px;
+        padding: 20px 30px;
+        line-height: 1.2
+    }
+
+    a.button-alt, div.button-alt a {
+        background-color: #ccc;
+        color: #fff
+    }
+
+    @media only screen and (min-width: 37.5em) {
+        a.button-xl, div.button-xl a {
+            padding: 20px 40px;
+            font-size: 18px
+        }
+    }
+
+    a.button-ghost, div.button-ghost a {
+        background-color: transparent !important;
+        border-color: #fff !important;
+        box-shadow: none
+    }
+
+    .button-empty {
+        background: none;
+        border: none;
+        box-shadow: none;
+        text-decoration: underline
+    }
+
+    .more {
+        border-bottom: 1px solid #333
+    }
+
+    .sidebar a.button, .sidebar div.button a, .sidebar button.button, .sidebar .wpcf7-submit, .sidebar #searchsubmit, .sidebar .mc4wp-form input[type=submit] {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    body.page-template-page-conversion .small-column {
+        width: 50%;
+        margin: 0 25%
+    }
+
+    @media only screen and (min-width: 105em) {
+        body.page-template-page-conversion .small-column {
+            width: 60%;
+            margin: 0 20%
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        body.page-template-page-conversion .small-column {
+            width: 90%;
+            margin: 0 5%
+        }
+    }
+
+    body.page-template-page-conversion .responsive-header nav {
+        display: none
+    }
+
+    body.page-template-page-conversion .footer .column1-4 {
+        display: none
+    }
+
+    body.page-template-page-conversion .nav-toggler {
+        display: none
+    }
+
+    .wsp-container {
+        margin-bottom: 30px
+    }
+
+    .wsp-pages-list, .wsp-pages-list ul, .wsp-posts-list, .wsp-posts-list ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0
+    }
+
+    .wsp-pages-list ul, .wsp-posts-list ul {
+        margin: 0 0 30px 5px;
+        padding-left: 25px;
+        border-left: 1px #ccc solid
+    }
+
+    .wsp-pages-list a, .wsp-posts-list a {
+        text-decoration: none
+    }
+
+    .wsp-pages-list a:hover, .wsp-posts-list a:hover {
+        font-weight: bold
+    }
+
+    @media only screen and (max-width: 800px) {
+        .wsp-pages-list a, .wsp-posts-list a {
+            font-size: 16px
+        }
+    }
+
+    body.error404 .breadcrumbs {
+        display: none
+    }
+
+    body.error404 .page-main {
+        padding: 50px 0;
+        max-width: 600px
+    }
+</style>
+<!-- Async CSS Loading -->
+<link rel="preload" href="https://www.iddink.nl/landing-page/themes/oceans/style.css?ver=1.0.3" as="style"
+      onload="this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet" href="https://www.iddink.nl/landing-page/themes/oceans/style.css?ver=1.0.3">
+</noscript>
+<script data-no-minify="1">!function (e) {
+  "use strict";
+  var n = function (n, t, o) {
+    function i (e) {
+      return d.body ? e() : void setTimeout(function () {
+        i(e)
+      })
+    }
+
+    function r () {
+      a.addEventListener && a.removeEventListener("load", r), a.media = o || "all"
+    }
+
+    var d = e.document, a = d.createElement("link"), l;
+    if (t) {
+      l = t;
+    } else {
+      var s = (d.body || d.getElementsByTagName("head")[ 0 ]).childNodes;
+      l = s[ s.length - 1 ]
+    }
+    var f = d.styleSheets;
+    a.rel = "stylesheet", a.href = n, a.media = "only x", i(function () {
+      l.parentNode.insertBefore(a, t ? l : l.nextSibling)
+    });
+    var u = function (e) {
+      for (var n = a.href, t = f.length; t--;) {
+        if (f[ t ].href === n) {
+          return e();
+        }
+      }
+      setTimeout(function () {
+        u(e)
+      })
+    };
+    return a.addEventListener && a.addEventListener("load", r), a.onloadcssdefined = u, u(r), a
+  };
+  "undefined" != typeof exports ? exports.loadCSS = n : e.loadCSS = n
+}("undefined" != typeof global ? global : this);</script>
+<script data-no-minify="1">!function (t) {
+  if (t.loadCSS) {
+    var e = loadCSS.relpreload = {};
+    if (e.support = function () {
+        try {
+          return t.document.createElement("link").relList.supports("preload")
+        } catch (t) {
+          return !1
+        }
+      }, e.poly = function () {
+        for (var e = t.document.getElementsByTagName("link"), r = 0; r < e.length; r++) {
+          var n = e[ r ];
+          "preload" === n.rel && "style" === n.getAttribute("as") && (t.loadCSS(n.href, n, n.getAttribute("media")), n.rel = null)
+        }
+      }, !e.support()) {
+      e.poly();
+      var r = t.setInterval(e.poly, 300);
+      t.addEventListener && t.addEventListener("load", function () {
+        e.poly(), t.clearInterval(r)
+      }), t.attachEvent && t.attachEvent("onload", function () {
+        t.clearInterval(r)
+      })
+    }
+  }
+}(this);</script>
+<!-- END Async CSS Loading -->
+
+        <style media="screen">
+            a.button,
+            div.button a,
+            button.button,
+            .wpcf7-submit,
+            #searchsubmit,
+            .mc4wp-form input[type=submit] {
+                background-color: #0073cf;
+            }
+
+            a.button-alt,
+            div.button-alt a {
+                background-color: #616163;
+            }
+
+            @media only screen and (max-width: 1200px) {
+                .hero {
+                    background-color: #00a2e5;
+                    background-image: url(https://www.iddink.nl//landing-page/uploads/02/header-iddink-homepage-1280x853.jpg);
+                }
+            }
+
+            .slide, .subhero {
+                background-color: #0054a5;
+            }
+
+            .submenu li.current_page_item > a, .column1-3 h3, .post h2 a, .post h2, header.small a.text-logo {
+                color: #0054a5;
+            }
+
+            .ctawrapper {
+                background-color: #0054a5;
+            }
+
+            .subhero {
+                background-image: url();
+            }
+
+            @media only screen and (max-width: 800px) {
+                .subhero {
+                    background-image: url();
+                }
+            }
+        </style>
+        <link rel="stylesheet" type="text/css" href="https://www.iddink.nl//landing-page/themes/oceans/schoolmaster.css">
+    </head>
+
+    <body class="home page-template page-template-page-flexible page-template-page-flexible-php page page-id-186">
+        <!--tkc_start_header -->
+<header class="responsive-header">
+    <div class="inner">
+        <a href="https://www.iddink.nl/?pagina=home" class="logo" title="Homepage">
+            <img class="light-logo" alt="Iddink Logo" src="https://www.iddink.nl//landing-page/uploads/05/iddink_logo_white.svg">
+            <img class="dark-logo" alt="Iddink Logo" src="https://www.iddink.nl//landing-page/uploads/05/iddink_logo_white.svg">
+        </a>
+        <a href="#main" class="visually-hidden">Skip navigation</a>
+        <nav>
+            <ul class="primary-nav">
+                <li>
+                    <a href="https://www.iddink.nl/?pagina=home">
+                        <img class="light-home" src="https://www.iddink.nl//landing-page/themes/oceans/images/house.png">
+                        <img class="dark-home" src="https://www.iddink.nl//landing-page/themes/oceans/images/house-dark.png">
+                    </a>
+                </li>
+                <li id="menu-item-1908"
+                    class="menu-item menu-item-type-post_type  menu-item-object-page menu-item-has-children menu-item-1908">
+                    <a href="https://www.iddink.nl/leerling/">Voor leerlingen</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/bestellen/" >Bestellen</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://iddink-nl.custhelp.com/app" >Klantenservice</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/downloads/" >Downloads</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://digitaalleren.iddink.nl"  target="_blank">Digitaal leren</a>
+</li>
+
+                    </ul>
+                </li>
+                <li id="menu-item-1917"
+                    class="menu-item menu-item-type-post_type  menu-item-object-page menu-item-has-children menu-item-1917">
+                    <a href="https://www.iddink.nl/school/">Voor scholen</a>
+                    <ul class="sub-menu">
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/llbestellingen/" >Leerlingbestellingen</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/schoolbestellingen/" >Schoolbestellingen</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/factuur/" >Factuur</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/boekenlijst/" >Leermiddelenlijst</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/webmuteren/" >Webmuteren</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/wts/" >Werk- en tijdschema</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/inleverformulieren/" >Inleverformulier downloaden</a>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+    <a href="https://www.iddink.nl/evaluatie/" >Evaluatie</a>
+</li>
+
+                    </ul>
+                </li>
+                <li id="menu-item"
+    class="menu-item menu-item-type-post_type  menu-item-object-page menu-item-has-children menu-item-1917">
+    <a href="https://www.iddink.nl/onze-dienstverlening/">Onze dienstverlening</a>
+    <ul class="sub-menu">
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+            <a href="https://www.iddink.nl/wie-zijn-wij">Wie zijn wij</a>
+        </li>
+        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1962">
+            <a href="https://www.iddink.nl/wat-doen-wij">Wat doen wij</a>
+        </li>
+    </ul>
+</li>
+
+
+            </ul>
+        </nav>
+        <a class="nav-toggler" href="/sitemap">
+            <span class="lines-button x">
+                <span class="lines"></span>
+            </span>
+            <span class="label">MENU</span>
+        </a>
+    </div>
+</header>
+<!--tkc_end_header -->
+
+
+        <div class="hero cover">
+            <div class="container">
+                <div class="hero-content-wrapper">
+                    <div class="hero-content align-hc-left">
+                        <h1><p>Bestel vandaag nog je nieuwe schoolboeken en overige leermiddelen. Makkelijk en snel, afgestemd op jouw school en klas</p></h1>
+                        <p>Ga je van klas en/of richting wisselen? <a href="http://www.iddink.nl/klantenservice/?subApp=klaswisselSubApp&amp;pagina=klaswissel" target="_self">Klik hier</a></p>
+                        <a href="https://www.iddink.nl/bestellen/" class="button xl">BESTELLEN</a>
+                    </div>
+                </div>
+                <a href="#scroll" id="arrow-scroll" class="arrow bounce"></a>
+                <a href="#scroll" class="arrow-cover"></a>
+            </div>
+
+        </div>
+
+        <div class="background">
+            <div class="crossfader">
+
+                <div class="slide"
+                     style="background-color: #00a2e5; background-image: url(https://www.iddink.nl//landing-page/uploads/02/header-iddink-homepage-1920x1280.jpg);"></div>
+            </div>
+        </div>
+
+        <div id="scroll"></div>
+
+        <div class="wrapper cover" id="wrapper-1" style="background-color: #f5f5f5;">
+            <div class="container">
+                <div class="centered-content-small content">
+                    <h2>Wat doen wij?</h2>
+                    <p><span>Wij verkopen en verhuren boeken aan ruim 300.000 leerlingen in Nederland. Ook zorgen we voor jouw digitale lesmateriaal. In de zomermaanden werken bij ons meer dan 400 vakantiekrachten om alle boeken op tijd bij jou thuis te krijgen! Voor vragen kun je terecht bij onze (online) klantenservice.</span></p>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .rectangle-blocks__block {
+                min-height: 40vh;
+            }
+        </style>
+
+        <div class="wrapper rectangle-blocks" id="wrapper-2">
+            <div class="rectangle-blocks__block cover"
+                 style="background-image: url(https://www.iddink.nl//landing-page/uploads/02/iddink-faq.jpg); background-color: #333333`; color: #ffffff;"
+            >
+                <div>
+                </div>
+            </div>
+            <div class="rectangle-blocks__block cover" style="background-color: #0073cf; color: #ffffff;">
+                <div>
+                    <h2>Heb je een vraag?</h2>
+                    <p><span>Wanneer moet ik mijn boeken inleveren? Wat moet ik doen als ik mijn wachtwoord kwijt ben? En nog veel meer vragen. Het antwoord vind je hier.</span></p>
+                    <p>&nbsp;<br />
+                        <a style="background-color: #0073cf;" class="button"
+                           href="https://iddink-nl.custhelp.com/app">Naar klantenservice</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .rectangle-blocks__block {
+                min-height: 40vh;
+            }
+
+            @media only screen and (max-width: 1000px) {
+                .switched-order {
+                    -ms-flex-direction: column-reverse !important;
+                    flex-direction: column-reverse !important;
+                }
+            }
+        </style>
+
+        <div class="wrapper rectangle-blocks switched-order" id="wrapper-3">
+            <div class="rectangle-blocks__block cover"
+                 style="background-color: #333333; color: #ffffff;">
+                <div>
+                    <h2>Voor scholen</h2>
+                    <p><p>Verantwoordelijk voor het boekenproces op school? Kijk hier voor het schoolportaal, leerlingenbestellingen en nog veel meer.</p></p>
+                    <p>&nbsp;<br />
+                        <a style="background-color: #333333;" class="button"
+                           href="https://www.iddink.nl/school/">Informatie voor scholen</a></p>
+                </div>
+            </div>
+            <div class="rectangle-blocks__block cover"
+                 style="background-image: url(https://www.iddink.nl//landing-page/uploads/02/iddink-webmuteren.jpg); background-color: #777777;
+ 						color: #ffffff;">
+                <div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper rectangle-blocks" id="wrapper-4">
+            <div class="rectangle-blocks__block cover"
+                 style="background-image: url(https://www.iddink.nl//landing-page/uploads/02/iddink-bestellen-2.jpg); background-color: #777777;
+ 						color: #ffffff;">
+                <div>
+                </div>
+            </div>
+            <div class="rectangle-blocks__block cover" style="background-color: #0073cf; color: #ffffff;">
+                <div>
+                    <h2>Bestel je schoolboeken</h2>
+                    <p><span>Log in of maak een account aan en bestel makkelijk jouw persoonlijke leermiddelen afgestemd op jouw school en je nieuwe klas.</span></p>
+                    <p>&nbsp;<br />
+                        <a class="button" href="https://www.iddink.nl/bestellen/">BESTELLEN</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--tkc_start_footer -->
+<div class="wrapper footer">
+    <div class="columns-wide clearfix">
+        <div class="column column1-4">
+            <p class="fh">Over ons</p>
+            <p>
+                <a href="http://www.iddink.nl/bedrijfsgegevens" target="_self">Bedrijfsgegevens</a><br/>
+                <a href="https://www.iddinkgroup.com/werkenbij/vacatures/" target="_blank">Vacatures</a>
+            </p>
+        </div>
+        <div class="column column1-4">
+            <p class="fh">Voor leerlingen</p>
+            <p>
+                <a href="http://www.iddink.nl/bestellen" target="_self">Bestellen</a><br/>
+                <a href="https://iddink-nl.custhelp.com/app" target="_self">Klantenservice</a><br/>
+
+            </p>
+        </div>
+        <div class="column column1-4">
+            <p class="fh">Voor scholen</p>
+            <p>
+                <a href="https://www.iddink.nl/schoolbestellingen/" target="_self">Schoolbestellingen</a><br/>
+                <a href="https://www.iddink.nl/factuur/" target="_self">Factuur</a><br/>
+                <a href="https://www.iddink.nl/webmuteren/" target="_self">Webmuteren</a>
+            </p>
+        </div>
+        <div class="column column1-4">
+            <p class="fh">Contact</p>
+            <div itemscope itemtype="http://schema.org/Organization">
+                <div itemprop="name"><a href="https://iddink-nl.custhelp.com/app" target="_self">Contactopties</a></div>
+                <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                    <div>
+                        <span itemprop="streetAddress"></span>
+                    </div>
+                    <div>
+                        <span itemprop="postalCode"></span>
+                        <span itemprop="addressLocality"></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="subfooter">
+        <div class="sf-left">
+            <p>Copyright 2018 Iddink | <a href="https://www.iddinkgroup.com/responsible-disclosure" target="_blank">Responsible Disclosure</a> | <a href="../pdf/algemenevoorwaarden.pdf" target="_blank">Algemene voorwaarden</a> | <a href="../pdf/privacyverklaring.pdf" target="_blank">Privacyverklaring</a>&nbsp;| <a href="?pagina=disclaimer" target="_self">Disclaimer</a></p>
+        </div>
+        <div class="sf-right">
+            <p>
+                <a href="https://www.iddinkgroup.com" target="_blank">
+                    <img
+                        class="alignnone wp-image-253" style="float: right;margin-top:41px;"
+                        src="https://www.iddink.nl/landing-page/uploads/02/iddink-endorsement-transparent-white-250x15.png"
+                        width="250"
+                        height="15"
+                    />
+                </a>
+            </p>
+        </div>
+    </div>
+</div>
+<!--tkc_end_footer -->
+
+        <!--tkc_start_js_include -->
+<script type='text/javascript'>
+  var colomatduration = 'fast';
+  var colomatslideEffect = 'slideFade';
+</script>
+<script type='text/javascript'
+        src='https://www.iddink.nl/landing-page/plugins/jquery-collapse-o-matic/js/collapse.js?ver=1.6.6'></script>
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/js/jquery/jquery.masonry.min.js?ver=3.1.2b'></script>
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/themes/oceans/scripts/min/main.min.js?ver=1.0.2'></script>
+<script type='text/javascript' src='https://www.iddink.nl/landing-page/js/wp-embed.min.js?ver=4.7.5'></script>
+<script>
+  (function () {
+
+    // Check if fonts are loaded on previous visit
+    if (document.documentElement.className.indexOf("fonts-loaded") > -1) {
+      return;
+    }
+
+    var baseFont = new FontFaceObserver("Open Sans", {
+      weight: 300
+    });
+    var headingFontNormal = new FontFaceObserver("Open Sans", {
+      weight: 400
+    });
+    var headingFontBold = new FontFaceObserver("Open Sans", {
+      weight: 700
+    });
+
+    Promise
+      .all([ baseFont.load(), headingFontNormal.load(), headingFontBold.load() ])
+      .then(function () {
+        document.documentElement.classList.add("fonts-loaded");
+        sessionStorage.setItem('fontsLoaded', "true");
+      });
+  })();
+</script>
+
+<script type="text/javascript" id="slb_context">/* <![CDATA[ */
+if (!!window.jQuery) {
+  (function ($) {
+    $(document).ready(function () {
+      if (!!window.SLB) {
+        {
+          $.extend(SLB, { "context": [ "public", "user_guest" ] });
+        }
+      }
+    })
+  })(jQuery);
+}
+/* ]]> */</script>
+<!--tkc_end_js_include -->
+<script>
+  jQuery('.msnr-cards').masonry({
+    itemSelector: '.msnr-card',
+    columnWidth: '.grid-sizer',
+    gutter: '.gutter-sizer',
+    percentPosition: true
+  });
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8861594-3']);
+  _gaq.push(['_gat._anonymizeIp']);
+	_gaq.push(['_gat._forceSSL']);
+  _gaq.push(['_trackPageview', 'home']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_setDomainName', 'none']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+    </body>
+</html>
