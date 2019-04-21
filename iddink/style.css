@@ -1,0 +1,465 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+}
+
+.menuDrop {
+  color: #0073CF;
+  float: right;
+  margin-top: 2em;
+  margin-left: 1em;
+}
+
+.menuImage {
+  float: left;
+}
+
+.topMenu {
+  background-color: white;
+  height: 4.5em;
+  width: 100%;
+}
+
+.menuImageSearch {
+  float: right;
+  margin-top: 30px;
+  margin-left: .6em;
+}
+
+.BannerTitle {
+  background-image: url(images/slide-iddink1.jpg);
+  width: 100%;
+  max-width: 1800px;
+  color: white;
+  height: 29em;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+.bannerText {
+  margin-top: 3em;
+  margin-left: 5em;
+  width: 19em;
+}
+
+.imageBrain {
+  float: right;
+  margin-right: 10em;
+  margin-top: -6em;
+}
+
+.bannerButton {
+  display: block;
+  background-color: #0073CF;
+  border-color: white;
+  border: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  color: white;
+  padding: 12px 33px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  float: left;
+  margin-left: 17.3em;
+  margin-top: 3em;
+}
+
+.bannertextButton {
+  margin-left: 3em;
+}
+
+
+.sideLine {
+  margin: 0 auto;
+  max-width: 1130px;
+}
+
+.watDoenWij {
+  text-align: center;
+}
+.watDoentekst{
+  color: #0073CF;
+}
+
+.ontdekButton {
+  display: block;
+  background-color: #0073CF;
+  border-radius: 4px;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.ontdekButton2{
+  display: block;
+  background-color: white;
+  border-radius: 4px;
+  color: #85BADF;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: .4em;
+  text-transform: uppercase;
+
+}
+
+.imagepijl{
+  float: right;
+  margin-top: -7em;
+  margin-right: 10em;
+}
+
+
+
+.nieuw{
+  color: #0073CF;
+  text-decoration: none;
+}
+
+.imageAndTekst{
+  margin-top: 3em;
+  float: left;
+  margin-left: 1.03em;
+  margin-right: 1.03em;
+}
+.imageAndTekstFirst{
+  margin-top: 3em;
+  float: left;
+  margin-right: 1.03em;
+  margin-left: 0;
+}
+.imageAndTekstLast{
+  margin-top: 3em;
+  float: left;
+  margin-left: 1.03em;
+  margin-right: 0;
+}
+
+
+
+.blueBox{
+background-color: #85BADF;
+width: 100%;
+height: 22em;
+margin-top: 33em;
+}
+
+.textBlueBox{
+  color: white;
+  width: 61%;
+  padding-top: 3em;
+}
+
+.blueTekstImage{
+  float: right;
+  margin-top: -6.4em;
+  margin-right: 9.8em;
+}
+
+.blueButton{
+  display: block;
+  background-color: #0073CF;
+  border-color: white;
+  border: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  color: white;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 2em;
+  text-transform: uppercase;
+
+}
+
+.blueImage{
+  float: right;
+  margin-top: -18em;
+  height: 18em;
+}
+
+
+.neemContact{
+  text-align: center;
+  margin-top: 3em;
+}
+.MobileImage{
+  float: right;
+  margin-top: -6em;
+  margin-right: 2em;
+}
+.mailOnsButton{
+  display: block;
+  background-color: #0076d5;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.blueFooter{
+  margin-top: 3em;
+  width: 100%;
+  background-color: #0076d5;
+  padding-top: 3em;
+  height: 10em;
+}
+.FooterLink{
+  color: white;
+  text-decoration: none;
+  float: right;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.FooterLink:first-of-type{
+  margin-right: 0;
+}
+.FooterBottemTekst{
+  color: white;
+  float: left;
+}
+.FooterBottemTekst2{
+  color: white;
+  float: right;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+  margin-top: .85em;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: #0073CF;
+  text-align: center;
+  padding: 14px 9px;
+  text-decoration: none;
+}
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #0073CF;
+  padding: 12px 34px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropbtn2{
+  display: none;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn2 {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  display: none;
+}
+
+
+@media only screen and (max-width: 1154.200px) and (min-width: 1020px) {
+
+  .imageAndTekstFirst{
+    margin-right: .5em;
+    margin-left: 10.5em;
+  }
+  .imageAndTekst{
+    margin-left: 10.5em;
+    margin-right: 7.5em;
+  }
+  .imageAndTekstLast{
+    margin-left: 3.5em;
+    margin-right: .5em;
+  }
+  .blueBox{
+  margin-top: 63em;
+  }
+
+}
+
+
+  @media only screen and (max-width: 1020px) {
+    .imageAndTekstFirst{
+      margin-right: .5em;
+      margin-left: 8.5em;
+    }
+    .imageAndTekst{
+      margin-left: 8.5em;
+      margin-right: 7.5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 1.5em;
+      margin-right: .5em;
+    }
+
+    .imagepijl{
+      display: none;
+    }
+    .MobileImage{
+      display: none;
+    }
+    .blueBox{
+    height: 26em;
+    margin-top: 63em;
+    }
+
+    .textBlueBox{
+      width: 40%;
+    }
+    .blueTekstImage{
+      float: right;
+      margin-top: -5.4em;
+      margin-right: 2.8em;
+    }
+  }
+
+  @media only screen and (max-width: 960px) {
+    .imageAndTekstFirst{
+      margin-right: 8.5em;
+      margin-left: 2.5em;
+    }
+    .imageAndTekst{
+      margin-left: 2.5em;
+      margin-right: .5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 10.5em;
+      margin-right: .5em;
+    }
+    .blueBox{
+    height: 30em;
+    margin-top: 63em;
+    }
+    .BannerTitle {
+      background-size: 130%;
+    }
+  }
+
+  @media only screen and (max-width: 840px) {
+    .imageBrain {
+      display: none;
+    }
+    .blueBox{
+    height: 41em;
+    margin-top: 63em;
+    }
+
+    .textBlueBox{
+      width: 100%;
+      text-align: center;
+    }
+
+    .blueTekstImage{
+      display: none;
+    }
+
+
+    .blueImage{
+      float: inherit;
+      margin-top: 1em;
+      margin-left: 20%;
+    }
+  }
+
+  @media only screen and (max-width: 760px) {
+    .imageAndTekstFirst{
+      margin-right: .5em;
+      margin-left: 2.5em;
+    }
+    .imageAndTekst{
+      margin-left: 2.5em;
+      margin-right: .5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 2.5em;
+      margin-right: .5em;
+    }
+    .BannerTitle {
+      background-size: 160%;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
+    .imageAndTekstFirst{
+      margin-left: 5.5em;
+    }
+    .imageAndTekst{
+      margin-left: 5.5em;
+    }
+    .imageAndTekstLast{
+      margin-left: 5.5em;
+    }
+    .BannerTitle {
+      background-size: 280%;
+    }
+
+    .topMenu {
+      height: 8.5em;
+    }
+    .bannerButton {
+      float: left;
+      margin-left: 0;
+      margin-top: .1em;
+    }
+    .bannerText {
+      margin-top: 3em;
+      margin-left: 0;
+      width: 19em;
+    }
+    .blueBox{
+    height: 41em;
+    margin-top: 119em;
+    }
+    .blueImage{
+      margin-top: 1em;
+      width: 100%;
+      height: auto;
+      margin-left: 0;
+    }
+  }
